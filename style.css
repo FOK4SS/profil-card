@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin: 0;
+    font-family:'Inter', sans-serif;
+    height: 100vh;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.helyszin{
+    color: #bc13fe;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.linkek{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.link-gomb{
+    display: block;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+.link-gomb:hover{
+    background-color: #bc13fe;
+    color: 000;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #bc13fe;
+}
+
+.profil-kep{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #bc13fe;
+}
+
+.profil-kartya{
+    background-color: #1f1f1f;
+    width: 380px;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5)
+}
+.profil-kontener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+}
