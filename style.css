@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     padding: 0;
     background-color: black;
     display: flex;
@@ -6,7 +7,7 @@ body{
     color: white;
     align-items: center;
     margin: 0;
-    font-family:'Google+Sans';
+    font-family:'Google+Sans',sans-serif;
     height: 100vh;
 }
 
@@ -48,6 +49,11 @@ h1{
     box-shadow: 0 0 15px #bc13fe;
 }
 
+.link-gomb:focus{
+    outline: 3px solid white;
+    outline-offset: 4px;
+}
+
 .profil-kep{
     width: 150px;
     height: 150px;
@@ -60,7 +66,7 @@ h1{
 
 .profil-kartya{
     background-color: #1f1f1f;
-    width:380px;
+    width: 380px;
     padding: 50px;
     border-radius: 20px;
     text-align: center;
